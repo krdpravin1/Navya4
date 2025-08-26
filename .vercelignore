@@ -1,0 +1,26 @@
+# Ignore React Native app files
+/android
+/ios
+/expo
+/app
+/components
+/assets
+
+# Ignore node_modules (should be rebuilt fresh anyway)
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Ignore build artifacts
+.expo
+dist
+build
+
+# Ignore config not needed on serverless
+metro.config.js
+babel.config.js
+app.json
+package-lock.json
+
+# Keep only API
+!api/
